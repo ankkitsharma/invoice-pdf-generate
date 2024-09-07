@@ -2,13 +2,13 @@
 
 Develop a programmatic way of generating an invoice for orders placed on an e-commerce platform.
 
-# Tools & Libraries:
+## Tools & Libraries:
 
 - Express.js: To handle the API endpoints.
 - Easyinvoice: To generate the invoice in the required format and create a PDF.
 - Joi: Library for validating input parameters.
 
-# Basic Workflow:
+## Basic Workflow:
 
 - Setup Express.js Server: Create API routes that accept order data (seller details, billing info, item list, etc.).
 - Process Input Data: Validate and structure the data, compute tax types, amounts, and total values.
@@ -20,7 +20,7 @@ Develop a programmatic way of generating an invoice for orders placed on an e-co
   Convert total amounts to words.
 - Generate Invoice in PDF Format: Send the invoice back as a downloadable PDF file.
 
-# Set up Locally:
+## Set up Locally:
 
 - `git clone https://github.com/ankkitsharma/invoice-pdf-generate.git`
 - `cd invoice-pdf-generate`
@@ -28,7 +28,7 @@ Develop a programmatic way of generating an invoice for orders placed on an e-co
 - `npm install express easyinvoice joi cors`
 - start localhost with: `npm start`
 
-# Test the endpoints:
+## Test the endpoints:
 
 - Use the endpoint: http://localhost:3000/invoice/generateInvoice (or replace the local part with the deployed link)
 - Select POST METHOD
