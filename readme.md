@@ -14,7 +14,6 @@ Develop a programmatic way of generating an invoice for orders placed on an e-co
 - Process Input Data: Validate and structure the data, compute tax types, amounts, and total values.
 - Generate Invoice:
   Use Easyinvoice to create the invoice with structured data.
-  Optionally use PDFKit to generate a custom PDF if you're not using Zoho.
 - Compute Values:
   Calculate Net Amount, Tax Amount (SGST/CGST or IGST), and Total Amount.
   Convert total amounts to words.
