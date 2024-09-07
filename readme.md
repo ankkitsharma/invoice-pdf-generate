@@ -29,7 +29,7 @@ Develop a programmatic way of generating an invoice for orders placed on an e-co
 
 ## Test the endpoints:
 
-- Use the endpoint: http://localhost:3000/invoice/generateInvoice (or replace the local part with the deployed link)
+- Use the endpoint: http://localhost:3000/invoice/generateInvoice 
 - Select POST METHOD
 - Select Content-Type as application/json in Request Headers
 - Enter the following example raw Body:
